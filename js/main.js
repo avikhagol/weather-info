@@ -63,7 +63,7 @@ $(document).ready(function(){
         var long = $("form input#lon.inp").val();
         // console.log(lat);
         $.ajax({
-        url: "http://www.7timer.info/bin/api.pl",
+        url: "https://www.7timer.info/bin/api.pl",
         data: {
             lon: long,
             lat: lat,
